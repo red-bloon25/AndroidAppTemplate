@@ -71,6 +71,7 @@
       <None Remove="Resources\AppIcon\appiconfg.png" />
       <MauiIcon Include="Resources\AppIcon\appiconfg.png" />
       <None Remove="Resources\AppIcon\BGimage.png" />
+      <AndroidResource Include="Platforms\Android\Resources\Drawable\posticon.png" />
       <Resource Include="Resources\AppIcon\BGimage.png" />
     </ItemGroup>
 

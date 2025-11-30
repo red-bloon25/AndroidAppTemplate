@@ -5,6 +5,7 @@
 
     <ScrollView>
         <Grid>
+            
             <Label 
                 Text="HIIIII :3"
                 x:Name="LabelA"
@@ -16,7 +17,20 @@
                 Clicked="Button_OnClicked"
                 WidthRequest="100"
                 HeightRequest="100"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
             />
+            <Button 
+                Margin="0,500,0,0"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="send_notification" 
+                    Text="Press to send notifications" 
+                    WidthRequest="300" 
+                    HeightRequest="100" 
+                
+                ></Button>
+            
         </Grid>
     </ScrollView>
 
