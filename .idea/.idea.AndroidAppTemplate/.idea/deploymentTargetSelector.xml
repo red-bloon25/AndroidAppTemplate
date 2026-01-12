@@ -4,10 +4,10 @@
     <selectionStates>
       <SelectionState runConfigName="AndroidAppTemplate">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-11-04T13:50:55.248390700Z">
+        <DropdownSelection timestamp="2026-01-06T15:49:12.897914900Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\Kaike\.android\avd\Medium_Phone.avd" />
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\Kaike\.android\avd\Backup_phone_for_school.avd" />
             </handle>
           </Target>
         </DropdownSelection>

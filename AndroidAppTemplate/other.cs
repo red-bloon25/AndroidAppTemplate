@@ -26,6 +26,7 @@ public class other
 
     public void create_notirfactions(string title, string message)
     {
+        //dev note IDK what I was doing here. prob following a YT tutorial
 #if ANDROID
         
 
@@ -124,6 +125,24 @@ public class other
        vibrate.Vibrate(500);
        await Task.Delay(800);
        vibrate.Vibrate(1000);
+   }
+
+   public async void OpenLink(String URL,Page page)
+   {
+       try
+       {
+           Uri uri = new Uri(URL);
+           await Browser.Default.OpenAsync(uri, BrowserLaunchMode.SystemPreferred);
+       }
+       catch (Exception e)
+       {
+           page.DisplayAlert("Error", e.Message, "OK");
+       }
+   }
+
+   public void PlayVideo(string BroIdkHowToDoThis)
+   {
+       Console.WriteLine("Bro idk How to do this. Ill figure it out later");
    }
 
     }
